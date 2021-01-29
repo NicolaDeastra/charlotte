@@ -1,0 +1,22 @@
+.navbar {
+  background-color: none !important;
+
+  .navbar__links {
+    color: #212145 !important;
+  }
+
+  .navbar__links:hover {
+    color: #5869de !important;
+    cursor: pointer;
+  }
+
+  .navbar__nav li a:hover {
+    color: #5869de !important;
+  }
+
+  .navbar__logo {
+    color: #5869de !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+}

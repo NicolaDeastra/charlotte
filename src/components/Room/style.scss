@@ -1,0 +1,35 @@
+.room {
+  background-color: #fffef9;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #2e2e2e;
+  margin: 5rem auto;
+  height: 30rem;
+  box-shadow: 5px 2px 33px -14px #2e2e2e;
+
+  &__choice {
+    margin-top: 6rem;
+    margin-left: 18rem;
+  }
+
+  &__btn {
+    background-color: none !important;
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+
+  &__rock {
+    background-image: url('../../batu.png');
+    background-repeat: no-repeat !important;
+  }
+
+  &__paper {
+    background-image: url('../../kertas.png') !important;
+    background-repeat: no-repeat;
+  }
+
+  &__scissor {
+    background-image: url('../../gunting.png') !important;
+    background-repeat: no-repeat;
+  }
+}

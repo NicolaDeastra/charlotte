@@ -1,0 +1,27 @@
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background-color: #f9faff !important;
+  color: #212145 !important;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.btn-primary {
+  background-color: #576de6 !important;
+  border-color: #576de6 !important;
+}
+
+.btn-primary:hover {
+  background-color: #2b46df !important;
+  border-color: #2b46df !important;
+}
+
+.btn-success {
+  background-color: #e5cf57 !important;
+  border-color: #e5cf57 !important;
+}
+
+.btn-success:hover {
+  background-color: #dec22b !important;
+  border-color: #dec22b !important;
+}
